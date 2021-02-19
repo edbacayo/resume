@@ -1,0 +1,43 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* reg: 400, bold: 700, black: 900 */
+}
+
+/* navbar */
+.sidebar {
+    background-color: #222831;
+    box-shadow: 5px 7px 25px #999;
+    width: 13rem;
+}
+/* end of navbar */
+
+
+
+
+/* ********************* */
+/* VIDEO PORTFOLIO */
+.body-2 {
+    background-color: #382039;
+}
+
+/* navbar */
+.nav-bg-2 {
+    background-color: #200f21;
+}
+/* end navbar */
+
+/* cards */
+.card-param {
+    background-color: #5a3d5c;
+}
+
+/* end cards/
+
+
+/* footer */
+.footer-bg-2 {
+    background-color: #200f21;
+}
+/* end footer */
+
+/* END VIDEO PORTFOLIO */
