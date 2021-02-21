@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     font-family: 'Montserrat', sans-serif;
     /* reg: 400, bold: 700, black: 900 */
