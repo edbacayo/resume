@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+
     <title>Edmund Bacayo</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
@@ -17,27 +20,31 @@
     <script src="https://kit.fontawesome.com/727d579fe9.js" crossorigin="anonymous"></script>
 
     <!-- Personal CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="./public/css/styles.css">
 </head>
 
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-light fixed-top sidebar">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-md navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
+        </button>
         <div id="myNavbar" class="collapse navbar-collapse">
             <div class="container-fluid">
-                <div class="row align-items-center vh-100">
+
+                <div class="row">
                     <!-- Sidebar -->
-                    <div class="col-md-2 fixed-top text-center align-middle vh-100">
-                        <ul class="navbar-nav flex-column">
-                            <li class="nav-item"><a href="#" class="nav-link text-light mx-auto">About</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link text-light mx-auto">Experience</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link text-light mx-auto">Education</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link text-light mx-auto">Skills</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link text-light mx-auto">Interests</a></li>
+                    <div class="col-md-2 align-items-center d-flex fixed-top sidebar">
+                        <ul class="navbar-nav flex-column mx-auto text-center p-0">
+                            <li class="nav-item d-none d-md-block"><a href="#" class="nav-link"><img
+                                        src="./public/images/pfp.jpg" class="img-fluid mb-3 pfp"></a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-light">About</a></li>
+                            <li class="nav-item"><a href="/#experience" class="nav-link text-light">Experience</a></li>
+                            <li class="nav-item"><a href="/#education" class="nav-link text-light">Education</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-light">Skills</a></li>
+                            <li class="nav-item"><a href="/#interests" class="nav-link text-light">Interests</a></li>
                         </ul>
                     </div>
                     <!-- end Sidebar -->
@@ -50,24 +57,21 @@
     <section id="about">
         <div class="container-fluid">
             <div class="row align-items-center vh-100">
-                <div class="col-md-2">
-
-                </div>
-
-                <div class="col-md-10 pl-5">
-                    <h1 class="text-uppercase font-weight-bold display-3 ml-0 pl-0">Edmund Bacayo</h1>
-                    <div class="lead font-weight-bold mb-3">Buhisan Road · Punta Princesa Cebu City · (0908) 865-1141 ·
+                <div class="col-md-10 pl-5 ml-auto">
+                    <h1 class="text-uppercase font-weight-bold display-3" style="margin-left: -5px;">Edmund Bacayo</h1>
+                    <div class="lead font-weight-bold mb-3 mylead">Punta Princesa, Cebu City ·
                         edbacayo@yahoo.com</div>
-                    <p class="lead my-4">Experienced Software Support Engineer with a demonstrated history of working in
+                    <p class="lead my-4 myp">Experienced Software Support Engineer with a demonstrated history of
+                        working in
                         the
                         information technology and services industry. Skilled in POS systems, Customer Service, people
                         management, IT Service Management, MS Windows, and Software Installation</p>
-
                     <div class="">
-                        <a class="mr-4 mt-4 text-secondary" href="#"><i class="fab fa-linkedin-in fa-2x"></i></a>
-                        <a class="mr-4 mt-4 text-secondary" href="#"><i class="fab fa-instagram fa-2x"></i></a>
-                        <a class="mr-4 mt-4 text-secondary" href="#"><i class="fab fa-github fa-2x"></i></a>
-                        <a class="mr-4 mt-4 text-secondary" href="#"><i class="fab fa-facebook-f fa-2x"></i></a>
+                        <a class="mr-4 mt-4 text-secondary" href="https://www.linkedin.com/in/edmundbacayo/"
+                            target="_blank"><i class="fab fa-linkedin-in fa-2x social-icon"></i></a>
+                        <a class="mr-4 mt-4 text-secondary" href="mailto:edbacayo@yahoo.com" target="_blank"><i
+                                class="fas fa-envelope fa-2x social-icon"></i></a>
+
                     </div>
                 </div>
             </div>
@@ -79,31 +83,30 @@
     <!-- Experience -->
     <section id="experience">
         <div class="container-fluid">
-            <div class="row align-items-center vh-100">
-                <div class="col-md-2">
-
-                </div>
-
-                <div class="col-md-10 pl-5 ">
-                    <h2 class="text-uppercase font-weight-bold py-5">Experience</h2>
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-10 pl-5 ml-auto">
+                    <h2 class="text-uppercase font-weight-bold py-5 head">Experience</h2>
 
                     <div class="row justify-content-between">
-                        <div class="col-md-9 my-3">
-                            <h3 class="font-weight-bold">SW Support Engineer II (Supervisor)</h3>
-                            <h4 class="text-secondary">NCR Cebu Development Corp</h4>
-                            <p class="mb-3 text-muted">Worked on multiple projects or a project with global scope. Owned the
+                        <div class="col-md-9 my-md-3">
+                            <h3 class="font-weight-bold head">SW Support Engineer II (Supervisor)</h3>
+                            <h4 class="mylead">NCR Cebu Development Corp</h4>
+                            <p class="mb-3 myp">Worked on multiple projects or a project with global scope. Owned
+                                the
                                 overall management
                                 of the project, coordinating resources across organizations, and managing to timeline.
                             </p>
                         </div>
-                        <div class="col-md-1 my-3 text-muted text-right mt-3">March 2013 - Present</div>
+                        <div class="col-md-1 pb-5 pb-md-3 my-3 text-muted text-left text-md-right mt-3">March 2013 -
+                            Present</div>
                     </div>
 
                     <div class="row">
                         <div class="col-md-10 my-3">
-                            <h3 class="font-weight-bold">SW Support Engineer I</h3>
-                            <h4 class="text-secondary">NCR Cebu Development Corp</h4>
-                            <p class="mb-3 text-muted">Served as point of escalation, problem identification, analysis, diagnosis
+                            <h3 class="font-weight-bold head">SW Support Engineer I</h3>
+                            <h4 class="mylead">NCR Cebu Development Corp</h4>
+                            <p class="mb-3 myp">Served as point of escalation, problem identification, analysis,
+                                diagnosis
                                 and resolution. Conducted onboarding and training of new hires to ensure that they are
                                 equipped to support NCR’s wide range of POS products. Ensured that the team is on the
                                 right track to achieve company goals.
@@ -113,9 +116,10 @@
 
                     <div class="row">
                         <div class="col-md-10 my-3">
-                            <h3 class="font-weight-bold">Training And Quality Lead</h3>
-                            <h4 class="text-secondary">NCR Cebu Development Corp</h4>
-                            <p class="mb-3 text-muted">Ensured seamless transactions between agents, team leaders, and clients by
+                            <h3 class="font-weight-bold head">Training And Quality Lead</h3>
+                            <h4 class="mylead">NCR Cebu Development Corp</h4>
+                            <p class="mb-3 myp">Ensured seamless transactions between agents, team leaders, and
+                                clients by
                                 developing processes, creating troubleshooting documents, and creating/enhancing the
                                 quality scorecard. Upskilled techs from Level 1 helpdesk support to Level 2 (e.g. Log
                                 works, hardware dispatch).
@@ -125,9 +129,10 @@
 
                     <div class="row">
                         <div class="col-md-10 my-3">
-                            <h3 class="font-weight-bold">Technical Support Team Lead</h3>
-                            <h4 class="text-secondary">NCR Cebu Development Corp</h4>
-                            <p class="mb-3 text-muted">Conducted onboarding and training of new hires to ensure that they are
+                            <h3 class="font-weight-bold head">Technical Support Team Lead</h3>
+                            <h4 class="mylead">NCR Cebu Development Corp</h4>
+                            <p class="mb-3 myp">Conducted onboarding and training of new hires to ensure that
+                                they are
                                 equipped to support NCR’s wide range of POS products. Ensured that the team is on the
                                 right track to achieve company goals.
                             </p>
@@ -143,39 +148,36 @@
     <!-- Education -->
     <section id="education">
         <div class="container-fluid pl-5">
-            <div class="row align-items-center vh-100">
-                <div class="col-md-2">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-md-10 ml-auto">
 
-                </div>
-                <div class="col-md-10">
-
-                    <h2 class="text-uppercase font-weight-bold py-5">Education And Training</h2>
+                    <h2 class="text-uppercase font-weight-bold py-5 head">Education And Training</h2>
 
                     <div class="row">
                         <div class="col-md-10 my-3">
-                            <h3 class="font-weight-bold">The Complete Android & java Developer Course</h3>
-                            <h4 class="text-secondary">Udemy</h4>
+                            <h3 class="font-weight-bold head">The Complete Android & java Developer Course</h3>
+                            <h4 class="mylead">Udemy</h4>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-md-10 my-3">
-                            <h3 class="font-weight-bold">ASP For E-Commerece</h3>
-                            <h4 class="text-secondary">JavaSphere Computer Learning Center</h4>
+                            <h3 class="font-weight-bold head">ASP For E-Commerece</h3>
+                            <h4 class="mylead">JavaSphere Computer Learning Center</h4>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-md-10 my-3">
-                            <h3 class="font-weight-bold">Associate In Computer Science</h3>
-                            <h4 class="text-secondary">University of San Carlos</h4>
+                            <h3 class="font-weight-bold head">Associate In Computer Science</h3>
+                            <h4 class="mylead">University of San Carlos</h4>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-md-10 my-3">
-                            <h3 class="font-weight-bold">High School</h3>
-                            <h4 class="text-secondary">Cebu Eastern College</h4>
+                            <h3 class="font-weight-bold head">High School</h3>
+                            <h4 class="mylead">Cebu Eastern College</h4>
                         </div>
                     </div>
 
@@ -184,6 +186,26 @@
         </div>
     </section>
     <!-- end Education -->
+
+
+    <!-- interests -->
+    <section id="interests">
+        <div class="container-fluid pl-5">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-md-10 ml-auto">
+
+                    <h2 class="text-uppercase font-weight-bold py-4 head">Interests</h2>
+
+                    <p class="lead my-4 myp">Outside of work, I am also in to photography and videography. Aside from learning the art, I have also learned the technologies involved to </p>
+                    <a class="mr-4 mt-4 text-secondary" href="https://www.instagram.com/edbacayo" target="_blank"><i
+                            class="fab fa-instagram fa-2x social-icon"></i></a>
+                    <a class="mr-4 mt-4 text-secondary" href="https://www.youtube.com/cebulife" target="_blank"><i
+                            class="fab fa-youtube fa-2x social-icon"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end interests -->
 
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
