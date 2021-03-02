@@ -57,6 +57,29 @@ h1, .head {
 /* end about */
 
 
+/* experience */
+.experience-date {
+    font-size: 0.8rem;
+}
+/* end experience */
+
+
+/* back to top */
+.back-to-top {
+    background-color: #382039;
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    text-align: center;
+    display: none;
+}
+
+.back-to-top:hover {
+    background-color: #5a3d5c;
+}
+/* back to top */
+/* ********************* */
 
 
 

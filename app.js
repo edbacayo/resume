@@ -9,5 +9,9 @@ app.listen(process.env.PORT || port, function() {
 })
 
 app.get("/", function(req, res) {
+    res.sendFile(__dirname + "/index.html");
+})
+
+app.get("/video", function(req, res) {
     res.sendFile(__dirname + "/video.html");
 })

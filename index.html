@@ -20,13 +20,13 @@
     <script src="https://kit.fontawesome.com/727d579fe9.js" crossorigin="anonymous"></script>
 
     <!-- Personal CSS -->
-    <link rel="stylesheet" href="./public/css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-light">
+    <nav class="navbar navbar-expand-md navbar-light" id="top">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -38,12 +38,12 @@
                     <!-- Sidebar -->
                     <div class="col-md-2 align-items-center d-flex fixed-top sidebar">
                         <ul class="navbar-nav flex-column mx-auto text-center p-0">
-                            <li class="nav-item d-none d-md-block"><a href="#" class="nav-link"><img
-                                        src="./public/images/pfp.jpg" class="img-fluid mb-3 pfp"></a></li>
-                            <li class="nav-item"><a href="#" class="nav-link text-light">About</a></li>
+                            <li class="nav-item d-none d-md-block"><a href="/#top" class="nav-link"><img
+                                        src="/images/pfp.jpg" class="img-fluid mb-3 pfp"></a></li>
+                            <li class="nav-item"><a href="/#top" class="nav-link text-light">About</a></li>
                             <li class="nav-item"><a href="/#experience" class="nav-link text-light">Experience</a></li>
                             <li class="nav-item"><a href="/#education" class="nav-link text-light">Education</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link text-light">Skills</a></li>
+                            <!-- <li class="nav-item"><a href="#" class="nav-link text-light">Skills</a></li> -->
                             <li class="nav-item"><a href="/#interests" class="nav-link text-light">Interests</a></li>
                         </ul>
                     </div>
@@ -60,12 +60,11 @@
                 <div class="col-md-10 pl-5 ml-auto">
                     <h1 class="text-uppercase font-weight-bold display-3" style="margin-left: -5px;">Edmund Bacayo</h1>
                     <div class="lead font-weight-bold mb-3 mylead">Punta Princesa, Cebu City ·
-                        edbacayo@yahoo.com</div>
-                    <p class="lead my-4 myp">Experienced Software Support Engineer with a demonstrated history of
-                        working in
-                        the
-                        information technology and services industry. Skilled in POS systems, Customer Service, people
-                        management, IT Service Management, MS Windows, and Software Installation</p>
+                        <span class="user-select-all">edbacayo@yahoo.com</span>
+                    </div>
+                    <p class="lead my-4 myp">Goal-oriented Software Support Engineer with 18 years of combined
+                        experience in Project Management,
+                        people management, IT Service Management, training, technical support, and customer service.</p>
                     <div class="">
                         <a class="mr-4 mt-4 text-secondary" href="https://www.linkedin.com/in/edmundbacayo/"
                             target="_blank"><i class="fab fa-linkedin-in fa-2x social-icon"></i></a>
@@ -84,7 +83,7 @@
     <section id="experience">
         <div class="container-fluid">
             <div class="row align-items-center min-vh-100">
-                <div class="col-lg-10 pl-5 ml-auto">
+                <div class="col-md-10 pl-5 ml-auto">
                     <h2 class="text-uppercase font-weight-bold py-5 head">Experience</h2>
 
                     <div class="row justify-content-between">
@@ -97,11 +96,12 @@
                                 of the project, coordinating resources across organizations, and managing to timeline.
                             </p>
                         </div>
-                        <div class="col-md-1 pb-5 pb-md-3 my-3 text-muted text-left text-md-right mt-3">March 2013 -
+                        <div class="col-md-1 pb-5 pb-md-3 my-3 text-muted text-left text-md-right mt-3 experience-date">
+                            March 2013 -
                             Present</div>
                     </div>
 
-                    <div class="row">
+                    <div class="row justify-content-between">
                         <div class="col-md-10 my-3">
                             <h3 class="font-weight-bold head">SW Support Engineer I</h3>
                             <h4 class="mylead">NCR Cebu Development Corp</h4>
@@ -112,9 +112,11 @@
                                 right track to achieve company goals.
                             </p>
                         </div>
+                        <div class="col-md-1 pb-5 pb-md-3 my-3 text-muted text-left text-md-right mt-3 experience-date">
+                            October 2015 - June 2017</div>
                     </div>
 
-                    <div class="row">
+                    <div class="row justify-content-between">
                         <div class="col-md-10 my-3">
                             <h3 class="font-weight-bold head">Training And Quality Lead</h3>
                             <h4 class="mylead">NCR Cebu Development Corp</h4>
@@ -125,9 +127,11 @@
                                 works, hardware dispatch).
                             </p>
                         </div>
+                        <div class="col-md-1 pb-5 pb-md-3 my-3 text-muted text-left text-md-right mt-3 experience-date">
+                            February 2015 - September 2015</div>
                     </div>
 
-                    <div class="row">
+                    <div class="row justify-content-between">
                         <div class="col-md-10 my-3">
                             <h3 class="font-weight-bold head">Technical Support Team Lead</h3>
                             <h4 class="mylead">NCR Cebu Development Corp</h4>
@@ -137,6 +141,21 @@
                                 right track to achieve company goals.
                             </p>
                         </div>
+                        <div class="col-md-1 pb-5 pb-md-3 my-3 text-muted text-left text-md-right mt-3 experience-date">
+                            January 2014 - February 2015</div>
+                    </div>
+
+                    <div class="row justify-content-between">
+                        <div class="col-md-10 my-3">
+                            <h3 class="font-weight-bold head">Technical Trainer</h3>
+                            <h4 class="mylead">Sykes Asia, Inc.</h4>
+                            <p class="mb-3 myp">Conducted product training and ensured that agents have the knowledge
+                                and skills required to carry out their function effectively and efficiently. Conducted
+                                training needs analysis (TNA) and created a program to ensure that the training needs
+                                determined during the needs analysis are addressed.</p>
+                        </div>
+                        <div class="col-md-1 pb-5 pb-md-3 my-3 text-muted text-left text-md-right mt-3 experience-date">
+                            August 2012 - June 2013</div>
                     </div>
                 </div>
             </div>
@@ -196,7 +215,12 @@
 
                     <h2 class="text-uppercase font-weight-bold py-4 head">Interests</h2>
 
-                    <p class="lead my-4 myp">Outside of work, I am also in to photography and videography. Aside from learning the art, I have also learned the technologies involved to </p>
+                    <p class="lead my-4 myp">I am also in to photography and videography. This has not only taught me
+                        the ard but I have also learned the technologies involved in creating the intended end product
+                        which involve the use of, but not limited to, varoius photo and video editing software, sound
+                        design, as well as managing and organizing a YouTube channel. I uploaded a number of my
+                        work on YouTube and Instagram which you can check out by clicking on the icons below.</p>
+
                     <a class="mr-4 mt-4 text-secondary" href="https://www.instagram.com/edbacayo" target="_blank"><i
                             class="fab fa-instagram fa-2x social-icon"></i></a>
                     <a class="mr-4 mt-4 text-secondary" href="https://www.youtube.com/cebulife" target="_blank"><i
@@ -206,6 +230,11 @@
         </div>
     </section>
     <!-- end interests -->
+
+
+    <!-- back to top -->
+    <a href="/#top"><button id="back-top" type="button" class="btn back-to-top">Top</button></a>
+    <!-- end back to top -->
 
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -217,6 +246,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
         integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
         crossorigin="anonymous"></script>
+
+
+    <!--JQuery CDN-->
+    <!-- should be placed before personal js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Personal JS -->
+    <script src="/js/script.js"></script>"
 </body>
 
 </html>
