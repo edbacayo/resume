@@ -15,3 +15,7 @@ app.get("/", function(req, res) {
 app.get("/video", function(req, res) {
     res.sendFile(__dirname + "/video.html");
 })
+
+app.get("/va", function(req, res) {
+    res.sendFile(__dirname + "/public/sites/va/index.html");
+})

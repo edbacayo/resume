@@ -1,3 +1,11 @@
+:root {
+    --primary-dark: #200f21;
+    --primary-medium: #382039;
+    --primary-light: #5a3d5c; 
+    --primary-highlight: #f638dc;
+}
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -63,6 +71,34 @@ h1, .head {
     font-size: 0.8rem;
 }
 /* end experience */
+
+/* portfolio */
+.card {
+    overflow: hidden;
+    padding-bottom: 0;
+}
+.card-img-top {
+    transition: all 0.3s;
+}
+
+.card-img-top:hover {
+    transform: scale(1.02);
+}
+
+.card-title {
+    font-weight: bold;
+    color: var(--primary-dark);
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.folio-tech {
+    font-size: 0.70rem;
+    color: var(--primary-light);
+}
+/* end portfolio */
 
 
 /* back to top */
